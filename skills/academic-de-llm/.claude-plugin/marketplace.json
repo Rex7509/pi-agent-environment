@@ -1,0 +1,20 @@
+{
+  "name": "academic-de-llm",
+  "description": "Writing skills from tae898. Evidence-ordered, with sources.",
+  "owner": {
+    "name": "Taewoon Kim",
+    "url": "https://github.com/tae898"
+  },
+  "plugins": [
+    {
+      "name": "academic-de-llm",
+      "description": "Last-pass polish for academic writing: strip the markers that make a paper, abstract or academic blog post read as machine-generated, without flattening the prose or weakening a claim. LaTeX, Markdown and HTML.",
+      "author": {
+        "name": "Taewoon Kim"
+      },
+      "category": "productivity",
+      "source": "./",
+      "homepage": "https://github.com/tae898/academic-de-llm"
+    }
+  ]
+}

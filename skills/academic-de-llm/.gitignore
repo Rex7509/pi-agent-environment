@@ -1,0 +1,6 @@
+.DS_Store
+*.swp
+research/data/
+research/eval/out/
+__pycache__/
+*.pyc

@@ -1,0 +1,3710 @@
+{
+ "_note": "Frozen adjudication labels. Regression fixture: a regex change is scored against these rather than argued about. Panel majority of 3 judges, no human in the loop.",
+ "manifest": {
+  "date": "2026-08-06",
+  "rewriter": "openai/gpt-5.6-luna",
+  "judges": [
+   "x-ai/grok-4.5",
+   "z-ai/glm-5.2",
+   "deepseek/deepseek-v4-flash-0731"
+  ],
+  "corpus": "pubmed/sensors 2026 n=30",
+  "seed": 20260805,
+  "stage": "adjudicate"
+ },
+ "labels": [
+  {
+   "i": 0,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "present a",
+   "context": "We present a real-time method for terrain recognition and slip estimation in quadruped robots based on proprioceptive sensors and temporal con",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 0,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " enabling",
+   "context": "s, and others. To overcome these challenges, we propose a proprioceptive sensing-based complementary perception module with a TCN, enabling reliable real-time terrain recognition while reducing dependence on external perception. The TCN model effectively captures tempo",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 0,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " enabling",
+   "context": "uadruped robots. These findings confirm that quadruped robots can not only recognize terrain types but also detect surface states, enabling safer and more adaptive locomotion. Therefore, the proposed system is a cost-effective, robust, and low-latency solution for real",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 0,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "undue emphasis",
+   "match": "is crucial",
+   "context": "volutional networks (TCNs). As quadruped robots are increasingly deployed in complex environments, accurate terrain understanding is crucial. External sensors can be affected by lighting variations, occlusion, reflective surfaces, and others. To overcome these challenge",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 0,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "negative parallelism",
+   "match": "not only recognize terrain types but",
+   "context": "w locomotion speed and environmental conditions affect slip in quadruped robots. These findings confirm that quadruped robots can not only recognize terrain types but also detect surface states, enabling safer and more adaptive locomotion. Therefore, the proposed system is a cost-effective, robu",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 0,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " providing",
+   "context": "ocomotion. Therefore, the proposed system is a cost-effective, robust, and low-latency solution for real-time terrain recognition, providing a strong foundation for future deployment across more diverse terrains.",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 0,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "offers",
+   "context": "an recognize terrain types and detect surface states, supporting safer and more adaptive locomotion. Overall, the proposed system offers a cost-effective, robust, and low-latency solution for real-time terrain recognition and provides a strong foundation for future ",
+   "real": true,
+   "votes": [
+    true,
+    false,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 0,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " enabling",
+   "context": "tion while reducing dependence on external perception. The TCN model effectively captures temporal dependencies in sensor signals, enabling precise and robust detection. The framework is validated through extensive real-world experiments and deployed on an embedded edg",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 0,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "undue emphasis",
+   "match": "is essential",
+   "context": " convolutional networks (TCNs). As quadruped robots are increasingly used in complex environments, reliable terrain understanding is essential. However, external sensors are vulnerable to lighting changes, occlusion, reflective surfaces, and other factors. To address thes",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 0,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "superficial -ing",
+   "match": " enabling",
+   "context": "affect slip in quadruped robots. The findings confirm that quadruped robots can recognize terrain types and detect surface states, enabling safer and more adaptive locomotion. The proposed system is therefore a cost-effective, robust, and low-latency solution for real-",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 0,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "superficial -ing",
+   "match": " providing",
+   "context": "locomotion. The proposed system is therefore a cost-effective, robust, and low-latency solution for real-time terrain recognition, providing a strong foundation for future deployment across more diverse terrains.",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 0,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "provides",
+   "context": "ion. Overall, the proposed system offers a cost-effective, robust, and low-latency solution for real-time terrain recognition and provides a strong foundation for future deployment across more diverse terrains.",
+   "real": false,
+   "votes": [
+    true,
+    false,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 1,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "provides",
+   "context": "ly 120 s, and a steady-state mean tracking error below 0.01 m. These results confirm that the plant-linearization-based framework provides accuracy, robustness, and practical applicability for DDWMR trajectory tracking, all within a responsible control environment.",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 0,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "undue emphasis",
+   "match": "is crucial",
+   "context": "volutional networks (TCNs). As quadruped robots are increasingly deployed in complex environments, accurate terrain understanding is crucial. External sensors can be affected by lighting variations, occlusion, reflective surfaces, and other factors. To address these lim",
+   "real": true,
+   "votes": [
+    false,
+    true,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 1,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " enabling",
+   "context": "on based on differential flatness is employed to convert the original nonlinear system into two fully decoupled linear subsystems, enabling a simple and robust controller design. Unlike conventional flatness-based methods that rely on exact feedforward linearization ar",
+   "real": false,
+   "votes": [
+    false,
+    true,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 1,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " ensuring",
+   "context": "ds that rely on exact feedforward linearization around a reference trajectory, the proposed approach performs plant linearization, ensuring reliable tracking across a wide range of trajectories. The resulting two-loop architecture consists of an inner nonlinear loop im",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 1,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "superficial -ing",
+   "match": " allowing",
+   "context": "r transformation based on differential flatness converts the original nonlinear system into two fully decoupled linear subsystems, allowing the controller to be designed simply and robustly. In contrast to conventional flatness-based methods, which use exact feedforwar",
+   "real": false,
+   "votes": [
+    false,
+    true,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 1,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "offers",
+   "context": ", and the steady-state mean tracking error remained below 0.01 m. These results show that the plant-linearization-based framework offers accuracy, robustness, and practical applicability for DDWMR trajectory tracking in a responsible control environment.",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 1,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "provides",
+   "context": "ly 120 s, and a steady-state mean tracking error below 0.01 m. These results confirm that the plant-linearization-based framework provides accuracy, robustness, and practical applicability for DDWMR trajectory tracking within a responsible control environment.",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 2,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "offers",
+   "context": "s, such as Alzheimer's or Parkinson's, affect individuals' ability to perform daily tasks autonomously and safely. HAR technology offers an invaluable solution by enabling real-time monitoring and assistance, helping to maintain independence and quality of life for ",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 2,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " enabling",
+   "context": "son's, affect individuals' ability to perform daily tasks autonomously and safely. HAR technology offers an invaluable solution by enabling real-time monitoring and assistance, helping to maintain independence and quality of life for patients. Additionally, this techno",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 2,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " allowing",
+   "context": "ndence and quality of life for patients. Additionally, this technology provides a valuable data source for doctors and caregivers, allowing for more precise and personalized care, which can make a difference in managing and treating these neurodegenerative diseases. Th",
+   "real": true,
+   "votes": [
+    true,
+    false,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 2,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "provides",
+   "context": "-time monitoring and assistance, helping to maintain independence and quality of life for patients. Additionally, this technology provides a valuable data source for doctors and caregivers, allowing for more precise and personalized care, which can make a difference i",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 2,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " enabling",
+   "context": "clinical and patient monitoring contexts. Additionally, reinforcement learning has optimized decision-making in complex scenarios, enabling activity recognition systems to dynamically adjust monitoring parameters, enhancing detection and response to critical or unusual",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 2,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " enhancing",
+   "context": "y the contribution of Transfer Learning and Reinforcement Learning in supporting the processes of daily activity recognition, thus enhancing the quality of life for patients. As this is a trending topic, the literature surrounding it is quite dispersed, which is why thi",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 2,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " enhancing",
+   "context": "optimized decision-making in complex scenarios, enabling activity recognition systems to dynamically adjust monitoring parameters, enhancing detection and response to critical or unusual activities in multi-user environments. These advances demonstrate that, by integrat",
+   "real": false,
+   "votes": [
+    false,
+    true,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 2,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "undue emphasis",
+   "match": "plays a crucial role",
+   "context": "Human activity recognition-HAR-plays a crucial role in the lives of patients battling neurodegenerative diseases. These debilitating conditions, such as Alzheimer's or Parkinson's, ",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 2,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " thereby improving",
+   "context": "trate that, by integrating these approaches, greater personalization and robustness can be achieved in human activity recognition, thereby improving the quality of life for patients in clinical settings.",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 2,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "undue emphasis",
+   "match": "is essential",
+   "context": "e that transfer learning has allowed models to adapt to data variations without requiring large volumes of manual labeling, which is essential in clinical and patient monitoring contexts. Additionally, reinforcement learning has optimized decision-making in complex scenar",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 2,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "provides",
+   "context": "ng real-time monitoring and assistance, HAR technology can help patients maintain their independence and quality of life. It also provides doctors and caregivers with valuable data for more precise and personalized care, which can support the management and treatment ",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 2,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "provide",
+   "context": " to critical or unusual activities in multi-user environments. Together, these advances show that integrating both approaches can provide greater personalization and robustness in human activity recognition, thereby improving the quality of life of patients in clinic",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 2,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "superficial -ing",
+   "match": " allowing",
+   "context": "ntage in clinical and patient-monitoring contexts. Reinforcement learning has also optimized decision-making in complex scenarios, allowing activity recognition systems to adjust monitoring parameters dynamically and improving the detection of and response to critical ",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 2,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "remains",
+   "context": "n and their potential to improve patients\u2019 quality of life. Because this is an emerging area of research, the relevant literature remains dispersed; therefore, this review presents the current research direction in the field. The analysis was conducted using the scie",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 2,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "superficial -ing",
+   "match": " enabling",
+   "context": " Conditions such as Alzheimer\u2019s and Parkinson\u2019s can limit individuals\u2019 ability to perform daily tasks independently and safely. By enabling real-time monitoring and assistance, HAR technology can help patients maintain their independence and quality of life. It also pr",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 2,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "provides",
+   "context": "technology enables real-time monitoring and assistance, helping patients maintain their independence and quality of life. It also provides doctors and caregivers with valuable data for more precise and personalized care, which can support the management and treatment ",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 2,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "superficial -ing",
+   "match": " thereby improving",
+   "context": "e advances show that integrating both approaches can provide greater personalization and robustness in human activity recognition, thereby improving the quality of life of patients in clinical settings.",
+   "real": true,
+   "votes": [
+    false,
+    true,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 2,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "remains",
+   "context": " daily activity recognition and their role in supporting patients\u2019 quality of life. Because the literature on this emerging topic remains dispersed, the review also maps current research in the field. The analysis follows the science tree paradigm, which establishes ",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 2,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "undue emphasis",
+   "match": "plays a crucial role",
+   "context": "Human activity recognition (HAR) plays a crucial role in the lives of patients with neurodegenerative diseases. Conditions such as Alzheimer\u2019s and Parkinson\u2019s can limit individuals\u2019 a",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 2,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "provide",
+   "context": "mprove the detection of and response to critical or unusual activities in multi-user environments. Together, these approaches can provide greater personalization and robustness in human activity recognition, thereby improving patients\u2019 quality of life in clinical set",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 2,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "superficial -ing",
+   "match": " thereby improving",
+   "context": "ti-user environments. Together, these approaches can provide greater personalization and robustness in human activity recognition, thereby improving patients\u2019 quality of life in clinical settings.",
+   "real": true,
+   "votes": [
+    false,
+    true,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 2,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "superficial -ing",
+   "match": " allowing",
+   "context": "in clinical and patient-monitoring contexts. Reinforcement learning, in turn, has improved decision-making in complex scenarios by allowing activity-recognition systems to adjust monitoring parameters dynamically and improve the detection of and response to critical or",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 2,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "undue emphasis",
+   "match": "plays a crucial role",
+   "context": "Human activity recognition (HAR) plays a crucial role in supporting patients with neurodegenerative diseases. Conditions such as Alzheimer\u2019s and Parkinson\u2019s can limit individuals\u2019 abi",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 3,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "offers",
+   "context": "ative evaluations conducted from three dimensions. Scenario and parameter tests validate its generality and robustness. This work offers an efficient and reliable solution for real-time adaptive signal control of isolated intersections.",
+   "real": true,
+   "votes": [
+    false,
+    true,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 3,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "offers",
+   "context": "e evaluations across three dimensions. Scenario and parameter tests validate the framework's generality and robustness. This work offers an efficient and reliable solution for real-time adaptive signal control at isolated intersections.",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 3,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "superficial -ing",
+   "match": " thereby improving",
+   "context": "on by calculating expected action values. SARSA(\u03bb) uses eligibility traces to backpropagate multi-step temporal-difference errors, thereby improving sample utilization efficiency and overall model robustness. Experiments assess algorithm performance, framework generality, and h",
+   "real": false,
+   "votes": [
+    false,
+    true,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 3,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "provides",
+   "context": "ations across three dimensions. Scenario and parameter tests further confirm the framework\u2019s generality and robustness. This work provides an efficient and reliable solution for real-time adaptive signal control at isolated intersections.",
+   "real": true,
+   "votes": [
+    true,
+    false,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 3,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "boasts",
+   "context": " fixed-timing traffic signal control. Among these methods, intelligent signal timing control based on reinforcement learning (RL) boasts promising prospects. Classic RL algorithms have flaws like high estimation bias and lack of robustness, while the newer complex-s",
+   "real": false,
+   "votes": [
+    true,
+    false,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 4,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "remains",
+   "context": "Accurate distance measurement in outdoor environments remains a challenging problem for mobile augmented reality (AR) systems due to sensor noise, environmental variability, and the limitatio",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 4,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "position EfMAR as",
+   "context": "influence of environmental factors such as lighting conditions and spatial scale on measurement variability. Overall, the results position EfMAR as a flexible and adaptive framework designed to enhance robustness in outdoor AR-based geospatial measurement tasks. By emphasizing",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 4,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " emphasizing",
+   "context": "ion EfMAR as a flexible and adaptive framework designed to enhance robustness in outdoor AR-based geospatial measurement tasks. By emphasizing consistency, transparency, and architectural generalization, this work contributes a practical foundation for future research and",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 4,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "remains",
+   "context": "Accurate distance measurement outdoors remains difficult for mobile augmented reality (AR) systems because of sensor noise, environmental variability, and the limitations of re",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 4,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "position EfMAR as",
+   "context": "ects of environmental factors, including lighting conditions and spatial scale, on measurement variability. Overall, the findings position EfMAR as a flexible, adaptive framework for improving robustness in outdoor AR-based geospatial measurement tasks. By emphasizing consiste",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 4,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "provides",
+   "context": " shows how environmental factors, including lighting conditions and spatial scale, affect measurement variability. Overall, EfMAR provides a flexible framework for adaptive outdoor AR-based geospatial measurement, with an emphasis on consistency, transparency, and arc",
+   "real": true,
+   "votes": [
+    true,
+    false,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 4,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "provides",
+   "context": "door AR-based geospatial measurement tasks. By emphasizing consistency, transparency, and architectural generalization, this work provides a practical foundation for future research and development in mobile AR sensing for real-world outdoor applications.",
+   "real": true,
+   "votes": [
+    true,
+    false,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 4,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "superficial -ing",
+   "match": " emphasizing",
+   "context": "ngs position EfMAR as a flexible, adaptive framework for improving robustness in outdoor AR-based geospatial measurement tasks. By emphasizing consistency, transparency, and architectural generalization, this work provides a practical foundation for future research and de",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 5,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "serve as",
+   "context": "nstrating comparable or superior performance to the original implementation. Mobgap (v1.2) is openly available and is intended to serve as a reproducible reference implementation and benchmarking platform for researchers developing or validating mobility analysis algo",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 5,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "present a",
+   "context": "ackage. Here, we describe the mobgap ecosystem, detail how algorithms can be integrated and benchmarked in a reproducible way and present a re-validation of the pipeline against reference data across six clinical cohorts under real-world conditions. Validation results ",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 4,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "offers",
+   "context": "tive outdoor AR-based geospatial measurement, with an emphasis on consistency, transparency, and architectural generalization. It offers a practical foundation for future research and development in mobile AR sensing for real-world outdoor applications.",
+   "real": false,
+   "votes": [
+    true,
+    false,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 5,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "undue emphasis",
+   "match": "significant potential",
+   "context": "Objective, continuous assessment of real-world mobility using wearables has significant potential to transform clinical research and practice, yet the field lacks standardised, open-source tools that enable reproducible algorit",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 5,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "provide",
+   "context": "g performance comparable or superior to that of the original implementation. Mobgap (v1.2) is openly available and is intended to provide researchers developing or validating mobility analysis algorithms from wearable data with a reproducible reference implementation",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 5,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " thereby enhancing",
+   "context": "rithm real-world validation, across multiple clinical cohorts. This would improve transparency around definitions and performance, thereby enhancing interpretation and more meaningful comparison across studies. The Mobilise-D consortium validated a comprehensive analytical pipe",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 5,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "present a",
+   "context": "Python package. Here, we describe the mobgap ecosystem, detail how algorithms can be integrated and benchmarked reproducibly, and present a re-validation of the pipeline against reference data from six clinical cohorts under real-world conditions. Across all cohorts, w",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 6,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "provides",
+   "context": "oth the MC Dropout and Bootstrap enhance model robustness and uncertainty awareness under noisy sensor conditions. The MC Dropout provides sharper and more sensitive uncertainty estimates, while the Bootstrap yields more stable and better-calibrated predictions. The e",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 5,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "undue emphasis",
+   "match": "significant potential",
+   "context": "Continuous assessment of real-world mobility using wearables has significant potential to transform clinical research and practice. However, the field lacks standardised, open-source tools for reproducible validation",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 5,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "superficial -ing",
+   "match": " allowing",
+   "context": "lidation of algorithms across multiple clinical cohorts. Such tools would improve transparency around definitions and performance, allowing more meaningful interpretation and comparison across studies. The Mobilise-D consortium validated a comprehensive analytical pipe",
+   "real": false,
+   "votes": [
+    false,
+    true,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 6,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "offers",
+   "context": "tstrap yields more stable and better-calibrated predictions. The evaluation using the proposed PUAF demonstrates that each method offers distinct advantages, highlighting the importance of uncertainty quantification for reliable wearable-based HAR systems.",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 6,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " providing",
+   "context": "This paper presents research on a Predictive and Uncertainty Assessment Framework (PUAF), providing a comparative analysis of two prominent methods, Monte Carlo (MC) Dropout and Bootstrap-based models, used in uncertainty estimat",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 6,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " highlighting",
+   "context": "nd better-calibrated predictions. The evaluation using the proposed PUAF demonstrates that each method offers distinct advantages, highlighting the importance of uncertainty quantification for reliable wearable-based HAR systems.",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 6,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "undue emphasis",
+   "match": "highlighting the importance",
+   "context": "d better-calibrated predictions. The evaluation using the proposed PUAF demonstrates that each method offers distinct advantages, highlighting the importance of uncertainty quantification for reliable wearable-based HAR systems.",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 6,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "presents a",
+   "context": "This paper presents a Predictive and Uncertainty Assessment Framework (PUAF) that compares two prominent uncertainty estimation methods for neural netw",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 6,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "provides",
+   "context": " awareness under noisy sensor conditions. MC Dropout produces sharper and more sensitive uncertainty estimates, whereas Bootstrap provides more stable and better-calibrated predictions. Evaluation with the proposed PUAF shows that the two methods offer distinct advant",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 6,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "offer",
+   "context": "as Bootstrap provides more stable and better-calibrated predictions. Evaluation with the proposed PUAF shows that the two methods offer distinct advantages, underscoring the importance of uncertainty quantification in reliable wearable-based HAR systems.",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 6,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "negative parallelism",
+   "match": "Unlike traditional studies that optimize classification accuracy, this work",
+   "context": ", used in uncertainty estimation techniques of Neural Network predictions of human activity recognition using accelerometer data. Unlike traditional studies that optimize classification accuracy, this work emphasizes uncertainty quantification to enhance model reliability, particularly for critical health-related activities. Among th",
+   "real": false,
+   "votes": [
+    false,
+    true,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 6,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "superficial -ing",
+   "match": " allowing",
+   "context": "ify prediction uncertainty. The methods are evaluated by examining the average width of these intervals at different noise levels, allowing the most reliable feature and model combination to be identified. Both MC Dropout and Bootstrap improve model robustness and unce",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 6,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "superficial -ing",
+   "match": " underscoring",
+   "context": " stable and better-calibrated predictions. Evaluation with the proposed PUAF shows that the two methods offer distinct advantages, underscoring the importance of uncertainty quantification in reliable wearable-based HAR systems.",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 6,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "superficial -ing",
+   "match": " allowing",
+   "context": "quantify prediction uncertainty. The methods are evaluated by comparing the average widths of these intervals across noise levels, allowing the most reliable feature and model combination to be identified. Both MC Dropout and Bootstrap improve model robustness and unce",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 6,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "provides",
+   "context": " awareness under noisy sensor conditions. MC Dropout produces sharper and more sensitive uncertainty estimates, whereas Bootstrap provides more stable and better-calibrated predictions. The evaluation with the proposed PUAF shows that each method has distinct advantag",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 7,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "serves as",
+   "context": "f non-invasive and cost-effective screening and decision-making tools, allowing for earlier detection of the disease. This review serves as a comprehensive guide, providing structured insights into computational research methods for automated detection of PD and AD, wi",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 7,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "present a",
+   "context": "Neurodegenerative diseases such as Parkinson's disease (PD) and Alzheimer's disease (AD) present a significant and growing challenge to the healthcare systems worldwide. Both conditions are progressive and often undetected early",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 7,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " allowing",
+   "context": "n and artificial intelligence have enabled the development of non-invasive and cost-effective screening and decision-making tools, allowing for earlier detection of the disease. This review serves as a comprehensive guide, providing structured insights into computation",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 7,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " providing",
+   "context": "e screening and decision-making tools, allowing for earlier detection of the disease. This review serves as a comprehensive guide, providing structured insights into computational research methods for automated detection of PD and AD, with focus on handwriting analysis ",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 7,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "present a",
+   "context": "Neurodegenerative diseases such as Parkinson's disease (PD) and Alzheimer's disease (AD) present a significant and growing challenge to healthcare systems worldwide. Both conditions are progressive and often undetected early, wh",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 7,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "provides",
+   "context": "opment of non-invasive, cost-effective screening and decision-making tools that may enable earlier disease detection. This review provides a structured overview of computational research methods for the automated detection of PD and AD, focusing on handwriting analysi",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 7,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "provides",
+   "context": " multimodal approaches that combine kinematic and spatial handwriting features to capture cognitive and motor changes. The review provides structured summaries of publicly available handwriting datasets and discusses critical advancements, ongoing challenges, and futu",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 8,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "provides",
+   "context": "ficiency-accuracy trade-off and exhibits strong robustness in complex real-world scenarios. These results indicate that GeoSeqNet provides an effective and reliable solution for point cloud understanding in challenging sensing environments.",
+   "real": true,
+   "votes": [
+    true,
+    false,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 8,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "undue emphasis",
+   "match": "plays a vital role",
+   "context": "3D point cloud understanding plays a vital role in remote sensing, robotic perception and intelligent scene analysis. However, real-world point cloud data are often affected by ",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 8,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " enabling",
+   "context": "actions. In addition, an Adaptive Gate Fusion (AGF) module is designed to effectively integrate Gate-Scaled LSTM and GRU branches, enabling efficient long-range contextual modeling. By jointly exploiting local geometric cues and long-range contextual information, GeoSe",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 9,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "presents a",
+   "context": "mbine advanced robotic actuation, sensing, and intelligent control within unified training and operational frameworks. This paper presents a Digital Twin-based virtual reality (VR) interaction and control system developed for an innovative parallel surgical robot, desig",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 8,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "offers",
+   "context": "orable efficiency-accuracy trade-off, and shows strong robustness in complex real-world scenarios. These results indicate that it offers an effective and reliable solution for point cloud understanding in challenging sensing environments.",
+   "real": true,
+   "votes": [
+    true,
+    false,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 8,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "offers",
+   "context": "ficiency\u2013accuracy trade-off and exhibits strong robustness in complex real-world scenarios. These results indicate that GeoSeqNet offers an effective and reliable solution for point cloud understanding in challenging sensing environments.",
+   "real": true,
+   "votes": [
+    true,
+    false,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 9,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " enabling",
+   "context": "time robot interaction. The proposed framework extends a conventional VR simulator into a bidirectional Digital Twin architecture, enabling real-time synchronization between a virtual environment and the physical robotic system. The system integrates the ATHENA paralle",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 9,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " allowing",
+   "context": "aint, together with a flexible laparoscopic instrument providing enhanced dexterity. Interaction is achieved using VR controllers, allowing intuitive manipulation of the robotic system within an immersive environment. To enhance operational performance, an artificial i",
+   "real": false,
+   "votes": [
+    false,
+    true,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 9,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " providing",
+   "context": "4-degree-of-freedom architecture with a Remote Center of Motion (RCM) constraint, together with a flexible laparoscopic instrument providing enhanced dexterity. Interaction is achieved using VR controllers, allowing intuitive manipulation of the robotic system within an",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 9,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " providing",
+   "context": "hance operational performance, an artificial intelligence module based on neural networks is integrated as an assistive component, providing real-time trajectory refinement and motion guidance. The trained model is deployed using an ONNX-compatible runtime, ensuring eff",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 9,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "presents a",
+   "context": " bring together advanced robotic actuation, sensing, and intelligent control for both training and clinical operation. This paper presents a Digital Twin-based virtual reality (VR) interaction and control system for an innovative parallel surgical robot, supporting surg",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 9,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " ensuring",
+   "context": "nt, providing real-time trajectory refinement and motion guidance. The trained model is deployed using an ONNX-compatible runtime, ensuring efficient inference and seamless integration within the control architecture. The proposed system is validated through experiment",
+   "real": true,
+   "votes": [
+    false,
+    true,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 9,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "provides",
+   "context": "egree-of-freedom architecture with a Remote Center of Motion (RCM) constraint, along with a flexible laparoscopic instrument that provides enhanced dexterity. VR controllers enable users to manipulate the robotic system intuitively within an immersive environment. An ",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 9,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "superficial -ing",
+   "match": " allowing",
+   "context": " real-time robot interaction. The framework transforms a conventional VR simulator into a bidirectional Digital Twin architecture, allowing real-time synchronization between the virtual environment and the physical robot. It incorporates the ATHENA parallel robot, whic",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 9,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "provide",
+   "context": "e preserving a high degree of control intuitiveness. These findings demonstrate the potential of Digital Twin-based VR systems to provide a unified platform for surgical training, interaction, and intelligent assistance in next-generation medical robotic systems.",
+   "real": false,
+   "votes": [
+    false,
+    true,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 9,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "presents a",
+   "context": "s that combine robotic actuation, sensing, and intelligent control within unified training and operational frameworks. This paper presents a Digital Twin-based virtual reality (VR) interaction and control system for an innovative parallel surgical robot, supporting surg",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 9,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "provides",
+   "context": " a 4-degree-of-freedom architecture with a Remote Center of Motion (RCM) constraint, with a flexible laparoscopic instrument that provides enhanced dexterity. VR controllers enable intuitive manipulation of the robotic system in the immersive environment. An artificia",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 10,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "undue emphasis",
+   "match": "is crucial",
+   "context": "Force control is crucial for robotic contact-rich tasks such as assembly, grinding, and polishing, directly affecting task accuracy, interaction stability",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 10,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " enhancing",
+   "context": "portance sampling scheme based on density ratio estimation mitigates the distribution mismatch between relabeled and real samples, enhancing training quality and stability. Experimental results show that the proposed method outperforms baseline methods in convergence, f",
+   "real": true,
+   "votes": [
+    false,
+    true,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 9,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "provide",
+   "context": "n quality while maintaining a high level of control intuitiveness. These findings indicate that Digital Twin-based VR systems can provide a unified platform for surgical training, interaction, and intelligent assistance in next-generation medical robotic systems.",
+   "real": false,
+   "votes": [
+    false,
+    true,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 10,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "remains",
+   "context": ". However, achieving high-performance contact control and optimizing reinforcement learning policies in unstructured environments remains challenging due to environmental uncertainty, contact oscillations, and friction disturbances. This paper addresses these challen",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 10,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "superficial -ing",
+   "match": " allowing",
+   "context": "ER) with Importance Sampling (IS). Within the impedance control framework, a residual parameterized policy adjusts damping online, allowing the controller to adapt dynamically across different contact phases. To reduce the training instability associated with conventio",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 11,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "serve as",
+   "context": "lects age-related differences in auditory-feedback-driven neural adaptability, supporting the idea that alpha-band modulation may serve as a potential biomarker of motor-cognitive adaptability.",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 10,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "superficial -ing",
+   "match": " thereby improving",
+   "context": "heme based on density ratio estimation is further employed to reduce the distribution mismatch between relabeled and real samples, thereby improving training quality and stability. Experimental results show that the proposed method outperforms baseline methods in convergence, f",
+   "real": false,
+   "votes": [
+    false,
+    true,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 11,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "serve as",
+   "context": "lects age-related differences in auditory-feedback-driven neural adaptability and support the idea that alpha-band modulation may serve as a potential biomarker of motor-cognitive adaptability.",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 12,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " enabling",
+   "context": " baselines, while reducing dimensionality by 95.9% (from 612 to 25 features). The method produces fully interpretable fuzzy rules, enabling neuroscientists to inspect the decision logic rather than relying on nontransparent classifiers. A comprehensive validation inclu",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 12,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "provide",
+   "context": "y interpretable, allowing neuroscientists to examine the decision logic instead of relying on nontransparent classifiers. We also provide comprehensive validation through noise robustness analysis with 0\u201330% Gaussian noise and an assessment of between-subjects genera",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 12,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "superficial -ing",
+   "match": " allowing",
+   "context": "ture baselines while reducing dimensionality by 95.9%, from 612 to 25 features. The resulting fuzzy rules are fully interpretable, allowing neuroscientists to examine the decision logic instead of relying on nontransparent classifiers. We also provide comprehensive val",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 13,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "serving as",
+   "context": "ating its feasibility for estimating SOM in Moso bamboo forests under the specific constraints of the current study area, thereby serving as a valuable reference for forest soil SOM monitoring in specific regions.",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 13,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "undue emphasis",
+   "match": "is crucial",
+   "context": "Rapid and effective estimation of soil organic matter (SOM) is crucial for the scientific management of Moso bamboo forests. This study investigated Moso bamboo forest soils in Yongan City, Fujian Pro",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 13,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " thereby serving",
+   "context": "ch, validating its feasibility for estimating SOM in Moso bamboo forests under the specific constraints of the current study area, thereby serving as a valuable reference for forest soil SOM monitoring in specific regions.",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 13,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "superficial -ing",
+   "match": " providing",
+   "context": "approach for SOM estimation and validated its feasibility in Moso bamboo forests under the specific constraints of the study area, providing a valuable reference for monitoring forest soil SOM in specific regions.",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 13,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "undue emphasis",
+   "match": "is essential",
+   "context": "ABSTRACT:  Rapid, accurate estimation of soil organic matter (SOM) is essential for the scientific management of Moso bamboo forests. This study examined soils from Moso bamboo forests in Yongan City, Fujian P",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 13,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "superficial -ing",
+   "match": " providing",
+   "context": "-model approach for SOM estimation and demonstrated its feasibility in Moso bamboo forests under the conditions of the study area, providing a reference for monitoring forest soil SOM in specific regions.",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 14,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "negative parallelism",
+   "match": "not only significantly enhances resolution but",
+   "context": "quality for targets at different axial planes. An optical theory is analyzed, demonstrating that incorporating a microsphere lens not only significantly enhances resolution but also maintains uniform lateral resolution across different axial sections. In this system, a spatial light modulator (SLM) is pos",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 14,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " enhancing",
+   "context": "d at the image-side focal plane of the front group of an infinity-corrected microscope objective, where the microsphere assists in enhancing near-field coupling and increasing the effective numerical aperture to form a new combined imaging system. Within a certain imagi",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 14,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "superficial -ing",
+   "match": " thereby creating",
+   "context": "inity-corrected microscope objective. The microsphere enhances near-field coupling and increases the effective numerical aperture, thereby creating a new combined imaging system. Within a defined imaging range, the system can clearly image any axial section or multiple target ",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 14,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "provide",
+   "context": "icrosphere lenses generate photonic nanojets with subwavelength beam waists; however, conventional imaging techniques struggle to provide consistent image quality for targets at different axial planes. An optical theory is analyzed to show that incorporating a micros",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 14,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "negative parallelism",
+   "match": "not only substantially improves resolution but",
+   "context": " for targets located at different axial planes. This study analyzes an optical theory showing that integrating a microsphere lens not only substantially improves resolution but also preserves uniform lateral resolution across different axial sections. In the proposed system, a spatial light modulator (SLM",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 15,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "remains",
+   "context": "ts are used in optimizing warehouse logistics, yet achieving precise positioning during docking maneuvers and autonomous planning remains a technical challenge. This study presents a custom vision-based control system designed for an autonomous omnidirectional wheele",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 15,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "presents a",
+   "context": "ics, yet achieving precise positioning during docking maneuvers and autonomous planning remains a technical challenge. This study presents a custom vision-based control system designed for an autonomous omnidirectional wheeled robot. The proposed methodology acquires vi",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 15,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " ensuring",
+   "context": "ng a quaternion-based approach, and a second solution that utilizes Dual Lie Algebra to compute the 3D visual sensor's velocities, ensuring convergence towards the desired point-feature configuration. Experimental validation reveals that while both methods achieve dock",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 15,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "offers",
+   "context": " Servoing. Consequently, these findings indicate that integrating depth-based feature recovery with advanced algebraic strategies offers a stable control strategy for automated industrial scenarios.",
+   "real": true,
+   "votes": [
+    false,
+    true,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 15,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "presents a",
+   "context": "s can improve warehouse logistics, but precise positioning during docking and autonomous planning remains challenging. This study presents a custom vision-based control system for an autonomous omnidirectional wheeled robot. Visual feedback is obtained from a stereo cam",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 15,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "remains",
+   "context": "Autonomous mobile robots can improve warehouse logistics, but precise positioning during docking and autonomous planning remains challenging. This study presents a custom vision-based control system for an autonomous omnidirectional wheeled robot. Visual fee",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 15,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "provides",
+   "context": "ion-Based Visual Servoing. These findings indicate that combining depth-based feature recovery with advanced algebraic strategies provides a stable control strategy for automated industrial applications.",
+   "real": false,
+   "votes": [
+    true,
+    false,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 15,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "superficial -ing",
+   "match": " ensuring",
+   "context": "rough a quaternion-based approach, and a second method based on Dual Lie Algebra for computing the 3D visual sensor velocities and ensuring convergence to the desired point-feature configuration. Experimental results show that both methods achieve docking, while the du",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 15,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "remains",
+   "context": " mobile robots are used to optimize warehouse logistics, but precise positioning during docking maneuvers and autonomous planning remains a technical challenge. This study presents a custom vision-based control system for an autonomous omnidirectional wheeled robot. ",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 15,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "presents a",
+   "context": "use logistics, but precise positioning during docking maneuvers and autonomous planning remains a technical challenge. This study presents a custom vision-based control system for an autonomous omnidirectional wheeled robot. The methodology acquires visual feedback thro",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 15,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "offers",
+   "context": "n-Based Visual Servoing. These findings indicate that integrating depth-based feature recovery with advanced algebraic strategies offers a stable control strategy for automated industrial scenarios.",
+   "real": false,
+   "votes": [
+    true,
+    false,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 16,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "remains",
+   "context": "Structural health monitoring (SHM) of fibre-reinforced composites requires a health indicator that remains monotonically non-decreasing under the standard SHM assumption that no self-healing or maintenance-induced restoration event is a",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 16,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "remains",
+   "context": "jection and a globally consistent prognosability metric retain a SAMS-Net advantage. Cross-site or cross-material transferability remains to be established in future work.",
+   "real": false,
+   "votes": [
+    true,
+    false,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 16,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "remains",
+   "context": "ction and a globally consistent prognosability metric preserve a SAMS-Net advantage. Cross-site or cross-material transferability remains to be established in future work.",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 17,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " contributing to",
+   "context": "hreat model. Experimental evaluation on the KITTI dataset demonstrates that our BEDM framework reduces LiDAR data volume by 75.4%, contributing to a total network bandwidth reduction of 53.7%. The results demonstrate the feasibility and effectiveness of the integrated framewo",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 16,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "remains",
+   "context": "jection and a globally consistent prognosability metric retain a SAMS-Net advantage. Cross-site or cross-material transferability remains to be established in future work.",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 17,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "superficial -ing",
+   "match": " contributing to",
+   "context": "t and threat model. Experimental evaluation on the KITTI dataset shows that the BEDM framework reduces LiDAR data volume by 75.4%, contributing to an overall network bandwidth reduction of 53.7%. These results demonstrate the feasibility and effectiveness of the integrated fr",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 17,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "provide",
+   "context": "elivery within the evaluated setup. AES-GCM encryption, blockchain smart contracts, and InterPlanetary File System (IPFS) storage provide confidential, tamper-evident archival under the stated trust and threat model. Experimental evaluation on the KITTI dataset shows",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 17,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "superficial -ing",
+   "match": " contributing to",
+   "context": "t and threat model. Experimental evaluation on the KITTI dataset shows that the BEDM framework reduces LiDAR data volume by 75.4%, contributing to a total network bandwidth reduction of 53.7%. These results demonstrate the feasibility and effectiveness of the integrated frame",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 18,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "provide",
+   "context": "Low Earth orbit (LEO) satellite systems provide ubiquitous global connectivity for massive grant-free random access Internet of Things (IoT) applications. Full frequency reuse (",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 18,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "offer",
+   "context": "Low Earth orbit (LEO) satellite systems offer ubiquitous global connectivity for massive grant-free random access in Internet of Things (IoT) applications. Although full frequ",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 18,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "provide",
+   "context": "Low Earth orbit (LEO) satellite systems provide ubiquitous global connectivity for massive grant-free random access Internet of Things (IoT) applications. Full frequency reuse (",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 19,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " enabling",
+   "context": " the ring electrode produced broader and more robust analyte-dependent differences across multiple frequency-dependent parameters, enabling reliable discrimination of empty capsids (AAVempty) and genome-loaded capsids carrying either self-complementary (AAVscDNA) or si",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 19,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "remains",
+   "context": "Reliable quality control of adeno-associated virus (AAV) vectors remains a significant challenge in gene therapy manufacturing, especially when subtle differences in genome loading and conformation must",
+   "real": true,
+   "votes": [
+    false,
+    true,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 19,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "provides",
+   "context": "-independent over the tested range. Together, these results demonstrate that ring-electrode-enabled AC plasmonic nanopore sensing provides a multidimensional framework for resolving closely related AAV populations and advances plasmonic nanopores toward practical sing",
+   "real": false,
+   "votes": [
+    false,
+    true,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 19,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "remains",
+   "context": "Reliable quality control of adeno-associated virus (AAV) vectors remains a major bottleneck in gene therapy manufacturing, particularly for resolving subtle differences in genome loading and conformatio",
+   "real": true,
+   "votes": [
+    true,
+    false,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 19,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "offers",
+   "context": "ncentration over the tested range. Together, these findings demonstrate that ring-electrode-enabled AC plasmonic nanopore sensing offers a multidimensional approach for resolving closely related AAV populations and moves plasmonic nanopores closer to practical singl",
+   "real": false,
+   "votes": [
+    false,
+    true,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 19,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "remains",
+   "context": "Reliable quality control of adeno-associated virus (AAV) vectors remains a major bottleneck in gene therapy manufacturing, particularly when resolving subtle differences in genome loading and conformati",
+   "real": true,
+   "votes": [
+    false,
+    true,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 19,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "provides",
+   "context": "centration-independent over the tested range. These results demonstrate that ring-electrode-enabled AC plasmonic nanopore sensing provides a multidimensional framework for resolving closely related AAV populations and advances plasmonic nanopores toward practical sing",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 20,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "remain",
+   "context": "cal feature matching or optical flow prediction, but their robustness can degrade under large parallax, while computational costs remain high and tracking errors accumulate over long sequences. To address these issues, we propose SPTNet (SuperPoint Tracking Network)",
+   "real": false,
+   "votes": [
+    false,
+    true,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 20,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "serve as",
+   "context": "he dense optical flow field provides a temporal prior that constrains the descriptor-matching search space, while the descriptors serve as a correction signal that removes flow-induced drift at each frame through spatially constrained Sinkhorn optimization. This combi",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 20,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "remains",
+   "context": "Reliable image-to-image correspondence remains a challenge for camera-based Visual Simultaneous Localization and Mapping (SLAM). Conventional approaches primarily rely on isola",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 20,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "provides",
+   "context": "on is a Hybrid Tracking Module (HTM) based on a novel Predictor-Corrector mechanism. In this design, the dense optical flow field provides a temporal prior that constrains the descriptor-matching search space, while the descriptors serve as a correction signal that re",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 20,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "remains",
+   "context": "Robust image-to-image correspondence remains a fundamental challenge in camera-based Visual Simultaneous Localization and Mapping (SLAM). Conventional methods typically depen",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 20,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "provide",
+   "context": "The dense optical flow field acts as a temporal prior that constrains the descriptor matching search space, while the descriptors provide a correction signal that eliminates flow-induced drift at each frame through spatially constrained Sinkhorn optimization. This sy",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 21,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "provide",
+   "context": "nabling coarse localization of potential change regions. In the second stage, recognizing that high-resolution RGB domain details provide richer spatial information than frequency-domain features, we design a refinement fusion module (RFM) that leverages these RGB de",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 21,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " enabling",
+   "context": "(FAM) that learns frequency domain information to identify the blurred boundaries of changed objects that resemble the background, enabling coarse localization of potential change regions. In the second stage, recognizing that high-resolution RGB domain details provide",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 21,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " enhancing",
+   "context": " and refine segmentation boundaries, ensuring precise detection. Finally, edge loss is applied to preserve high-frequency details, enhancing the precision of change detection. Extensive experiments on benchmark datasets demonstrate that FARNet significantly outperforms ",
+   "real": false,
+   "votes": [
+    false,
+    true,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 21,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "provide",
+   "context": "ackground, enabling the coarse localization of potential change regions. In the second stage, because high-resolution RGB details provide richer spatial information than frequency-domain features, a refinement fusion module (RFM) uses these details to correct and ref",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 21,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " ensuring",
+   "context": "atures, we design a refinement fusion module (RFM) that leverages these RGB details to correct and refine segmentation boundaries, ensuring precise detection. Finally, edge loss is applied to preserve high-frequency details, enhancing the precision of change detection.",
+   "real": true,
+   "votes": [
+    false,
+    true,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 21,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "superficial -ing",
+   "match": " enabling",
+   "context": "dule (FAM) learns frequency-domain information to identify the blurred boundaries of changed objects that resemble the background, enabling the coarse localization of potential change regions. In the second stage, because high-resolution RGB details provide richer spat",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 22,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "remains",
+   "context": "Vehicle trajectory prediction at urban intersections remains difficult because of ambiguous maneuvers, dense interactions among agents, and complex lane-branching structures. Existing method",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 21,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "superficial -ing",
+   "match": " ensuring",
+   "context": "than frequency-domain features, a refinement fusion module (RFM) uses these details to correct and refine segmentation boundaries, ensuring precise detection. Finally, edge loss preserves high-frequency details and further improves change-detection precision. Extensive",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 22,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "provide",
+   "context": "dense agent interactions, and complex lane branching structures. Existing methods frequently suffer from mode collapse or fail to provide sufficient coverage across all competing exit branches, limiting their reliability in safety-critical scenarios. This paper propo",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 22,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "provide",
+   "context": "r ambiguity, dense agent interactions, and complex lane-branching structures. Existing methods often suffer from mode collapse or provide insufficient coverage of competing exit branches, limiting their reliability in safety-critical scenarios. This paper proposes IP",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 23,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " ensuring",
+   "context": "cal constraints, it generates motion predictions for invisible targets and links these inferred states to fragmented trajectories, ensuring temporally continuous tracking even during prolonged visual occlusions. Experiments on the DAIR-V2X and our self-collected roadsi",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 23,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " enabling",
+   "context": "terns. Critically, these predictions are integrated into the tracking framework as dynamic weighting factors in the loss function, enabling the model to adaptively penalize tracking errors based on the predicted occlusion severity and significantly enhancing robustness",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 23,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "superficial -ing",
+   "match": " allowing",
+   "context": "h target from historical occlusion patterns. These estimates are incorporated into the tracking framework as dynamic loss weights, allowing the model to penalize tracking errors according to predicted occlusion severity and improving robustness to dynamic occlusions. S",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 23,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "serve as",
+   "context": "occlusion. By analyzing historical occlusion patterns, it forecasts the future occlusion ratio for each target. These predictions serve as dynamic loss weights, allowing the model to penalize tracking errors according to predicted occlusion severity and improving robu",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 23,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "offer",
+   "context": "Roadside perception systems offer longer detection ranges and higher precision than onboard sensors, but severe occlusion in complex traffic still causes tracking ",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 23,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " enhancing",
+   "context": "ss function, enabling the model to adaptively penalize tracking errors based on the predicted occlusion severity and significantly enhancing robustness against dynamic occlusion scenarios. Second, leveraging the predicted occlusion states, we propose a GNN-based Spatial",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 24,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " enabling",
+   "context": "19 W \u00b1 0.02 W (n = 60, 95% CI); the complete per-robot system, including the Jetson Orin Nano compute rail, draws 6.15 W \u00b1 0.09 W, enabling six-hour missions from the 55.08 Wh battery. Fifth, localisation across ten trials yields the mean position error 0.074 m and RMS",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 24,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "superficial -ing",
+   "match": " enabling",
+   "context": " W \u00b1 0.02 W (n = 60, 95% CI). Including the Jetson Orin Nano compute rail, the complete per-robot system consumed 6.15 W \u00b1 0.09 W, enabling six-hour missions from the 55.08 Wh battery. Fifth, localisation over ten trials produced a mean position error of 0.074 m and an",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 23,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "superficial -ing",
+   "match": " allowing",
+   "context": "ical occlusion patterns, it forecasts the future occlusion ratio for each target. These predictions serve as dynamic loss weights, allowing the model to penalize tracking errors according to predicted occlusion severity and improving robustness under dynamic occlusion.",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 25,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "serves as",
+   "context": "uency bands, which carry the bulk of seismic energy, receive proportionally higher training emphasis. Seismic moment magnitude Mw serves as the primary conditioning variable, enabling targeted synthesis for specific hazard scenarios. The model is implemented in Python ",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 25,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "presents a",
+   "context": " and near-fault scenarios, limits the reliability of structural analyses and probabilistic seismic hazard assessments. This paper presents a proof-of-concept wavelet-decomposed conditional Generative Adversarial Network (WD-cGAN) for the synthesis of seismic accelerogra",
+   "real": false,
+   "votes": [
+    true,
+    false,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 25,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " ensuring",
+   "context": "r. A novel energy-based weighting scheme \u03b1i modulates the relative contribution of each discriminator to the total generator loss, ensuring that physically dominant, low-frequency bands, which carry the bulk of seismic energy, receive proportionally higher training emp",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 25,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "remains",
+   "context": "The generation of synthetic seismic accelerograms remains a critical challenge in earthquake engineering. The limited availability of strong-motion records, especially for high-magnitude ",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 25,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "provides",
+   "context": "awn from the Italian INGV/ITACA v4.0 archive. Preliminary evaluation on 500 synthetic accelerograms across five magnitude classes provides evidence that the proposed wavelet-domain multi-discriminator scheme reproduces the essential spectral shape and non-stationary t",
+   "real": false,
+   "votes": [
+    false,
+    true,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 25,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " enabling",
+   "context": " energy, receive proportionally higher training emphasis. Seismic moment magnitude Mw serves as the primary conditioning variable, enabling targeted synthesis for specific hazard scenarios. The model is implemented in Python v3.9 using PyTorch v.2.10 and trained on acc",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 25,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "presents a",
+   "context": "de and near-fault events, reduces the reliability of structural analyses and probabilistic seismic hazard assessments. This paper presents a proof-of-concept wavelet-decomposed conditional Generative Adversarial Network (WD-cGAN) designed to generate accelerograms with ",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 25,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "superficial -ing",
+   "match": " allowing",
+   "context": "frequency bands that contain most of the seismic energy. Seismic moment magnitude Mw is used as the primary conditioning variable, allowing synthesis to be targeted to specific hazard scenarios. The model is implemented in Python v3.9 with PyTorch v.2.10 and trained us",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 25,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "remain",
+   "context": "dation on a larger and more diverse corpus, rigorous comparison with competing methods, and extended multi-parameter conditioning remain the principal directions for future work.",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 25,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "presents a",
+   "context": " and near-fault scenarios, limits the reliability of structural analyses and probabilistic seismic hazard assessments. This paper presents a proof-of-concept wavelet-decomposed conditional Generative Adversarial Network (WD-cGAN) for synthesizing seismic accelerograms w",
+   "real": false,
+   "votes": [
+    true,
+    false,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 25,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "remain",
+   "context": "dation on a larger and more diverse corpus, rigorous comparison with competing methods, and extended multi-parameter conditioning remain the principal avenues for future work.",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 25,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "superficial -ing",
+   "match": " enabling",
+   "context": "ulk of seismic energy, proportionally greater training emphasis. Seismic moment magnitude Mw is the primary conditioning variable, enabling targeted synthesis for specific hazard scenarios. The model is implemented in Python v3.9 with PyTorch v.2.10 and trained on acce",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 25,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "provides",
+   "context": "ams from the Italian INGV/ITACA v4.0 archive. Preliminary evaluation of 500 synthetic accelerograms across five magnitude classes provides evidence that the wavelet-domain multi-discriminator scheme reproduces the essential spectral shape and non-stationary temporal s",
+   "real": false,
+   "votes": [
+    true,
+    false,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 26,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "undue emphasis",
+   "match": "is essential",
+   "context": "Anticipating how objects will change state during ongoing activities is essential for robust video understanding and for deploying assistive, AR, and robotics systems in the real world. We introduce Object State",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 26,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " enabling",
+   "context": "t baseline for OSCA that fuses recent egocentric visual context with a structured linguistic history of actions and object states, enabling temporally grounded reasoning about near-future transformations. We establish comprehensive evaluation protocols and report exten",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 27,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "provide",
+   "context": "ings support the feasibility of interaction-driven olfactory feedback as a multisensory design approach for CAVE environments and provide a foundation for future controlled investigations of olfactory feedback in immersive VR.",
+   "real": false,
+   "votes": [
+    true,
+    false,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 27,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "remains",
+   "context": "The integration of olfactory feedback into Virtual Reality (VR) applications remains significantly underexplored compared with other sensory modalities, particularly within room-scale Cave Automatic Virtual Environ",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 27,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "remains",
+   "context": "Olfactory feedback remains considerably less explored in Virtual Reality (VR) than other sensory modalities, especially in room-scale Cave Automatic Virtual",
+   "real": true,
+   "votes": [
+    false,
+    true,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 28,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "presents a",
+   "context": "security challenges, making it essential to develop robust and transparent intrusion detection system (IDS) solutions. This study presents a specialized system for IoT environments that combines hybrid feature selection methods with anomaly detection algorithms and clas",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 27,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "remains",
+   "context": "The integration of olfactory feedback into Virtual Reality (VR) applications remains significantly underexplored compared with other sensory modalities, particularly in room-scale Cave Automatic Virtual Environment",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 28,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "provide",
+   "context": "tools such as Shapley Additive Explanations (SHAP) and Local Interpretable Model-Agnostic Explanations (LIME) are incorporated to provide insights into model decisions and improve trust. We utilize the CIC-IDS2017 and EIIoT datasets to evaluate their effectiveness in",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 28,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "offer",
+   "context": "nsion-reduction Autoencoder and Traditional Learning with Explainable Artificial Intelligence), integrates advanced techniques to offer comprehensive protection while ensuring transparency, enhancing security and trustworthiness, and serving as an essential tool fo",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 27,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "provide",
+   "context": "ings support the feasibility of interaction-driven olfactory feedback as a multisensory design approach for CAVE environments and provide a foundation for future controlled investigations of olfactory feedback in immersive VR.",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 28,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "serving as",
+   "context": "es advanced techniques to offer comprehensive protection while ensuring transparency, enhancing security and trustworthiness, and serving as an essential tool for protecting IoT networks.",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 28,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " enabling",
+   "context": " of detection; the application of Deep Autoencoders (DAEs) for detecting anomalous traffic deviating from learned normal behavior, enabling detection of previously unseen attack patterns under controlled experimental conditions; feedforward neural networks (FNNs) are a",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 28,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "provide",
+   "context": "imension-reduction Autoencoder and Traditional Learning with Explainable Artificial Intelligence), integrates these techniques to provide comprehensive protection, maintain transparency, enhance security and trustworthiness, and serve as an essential tool for protect",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 28,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " ensuring",
+   "context": "itional Learning with Explainable Artificial Intelligence), integrates advanced techniques to offer comprehensive protection while ensuring transparency, enhancing security and trustworthiness, and serving as an essential tool for protecting IoT networks.",
+   "real": false,
+   "votes": [
+    false,
+    true,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 28,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "provide",
+   "context": " and reduced training time, while Shapley Additive Explanations (SHAP) and Local Interpretable Model-Agnostic Explanations (LIME) provide insight into model decisions and support greater trust. The effectiveness of the proposed approach is evaluated using the CIC-IDS",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 28,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " enhancing",
+   "context": "xplainable Artificial Intelligence), integrates advanced techniques to offer comprehensive protection while ensuring transparency, enhancing security and trustworthiness, and serving as an essential tool for protecting IoT networks.",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 28,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "serve as",
+   "context": "integrates these techniques to provide comprehensive protection, maintain transparency, enhance security and trustworthiness, and serve as an essential tool for protecting IoT networks.",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 28,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "presents a",
+   "context": " creates distinct security challenges and the need for robust, transparent intrusion detection system (IDS) solutions. This study presents a specialized IoT system that combines hybrid feature selection, anomaly detection, classification, and explainability techniques. ",
+   "real": false,
+   "votes": [
+    false,
+    true,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 28,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "superficial -ing",
+   "match": " allowing",
+   "context": "maintaining high detection accuracy. Deep Autoencoders (DAEs) detect anomalous traffic that deviates from learned normal behavior, allowing previously unseen attack patterns to be identified under controlled experimental conditions. Feedforward neural networks (FNNs) c",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 28,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "provide",
+   "context": "curacy and reduced training time. Shapley Additive Explanations (SHAP) and Local Interpretable Model-Agnostic Explanations (LIME) provide insights into model decisions and improve trust. The CIC-IDS2017 and EIIoT datasets are used to evaluate the framework\u2019s effectiv",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 28,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "provide",
+   "context": "imension-reduction Autoencoder and Traditional Learning with Explainable Artificial Intelligence), integrates these techniques to provide comprehensive protection for IoT networks while maintaining transparency, security, and trustworthiness.",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 29,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "offers",
+   "context": "Neuroimaging offers a promising approach for early Alzheimer\u2019s disease (AD) detection and may support timely clinical intervention. This study presen",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 29,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "remains",
+   "context": "ncy. It requires substantially fewer computational resources than standard deep architectures such as VGG-16 (138 M), although it remains more parameter-intensive than highly compact models such as MobileNet and EfficientNet, which are specifically designed for resou",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 2,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " supporting",
+   "context": "nerative diseases. The objective of this review is to identify the contribution of Transfer Learning and Reinforcement Learning in supporting the processes of daily activity recognition, thus enhancing the quality of life for patients. As this is a trending topic, the li",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 2,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "undue emphasis",
+   "match": "invaluable",
+   "context": " Alzheimer's or Parkinson's, affect individuals' ability to perform daily tasks autonomously and safely. HAR technology offers an invaluable solution by enabling real-time monitoring and assistance, helping to maintain independence and quality of life for patients. Addi",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 2,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "superficial -ing",
+   "match": " supporting",
+   "context": " review examines the contributions of transfer learning and reinforcement learning to daily activity recognition and their role in supporting patients\u2019 quality of life. Because the literature on this emerging topic remains dispersed, the review also maps current research",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 2,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "superficial -ing",
+   "match": " supporting",
+   "context": "Human activity recognition (HAR) plays a crucial role in supporting patients with neurodegenerative diseases. Conditions such as Alzheimer\u2019s and Parkinson\u2019s can limit individuals\u2019 ability to perfor",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 2,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "superficial -ing",
+   "match": " helping",
+   "context": " individuals\u2019 ability to perform daily tasks independently and safely. HAR technology enables real-time monitoring and assistance, helping patients maintain their independence and quality of life. It also provides doctors and caregivers with valuable data for more pre",
+   "real": true,
+   "votes": [
+    false,
+    true,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 0,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "superficial -ing",
+   "match": " supporting",
+   "context": "me terrain recognition while reducing dependence on external perception. The TCN captures temporal dependencies in sensor signals, supporting precise and robust detection. We validate the framework through extensive real-world experiments and deploy it on an embedded edg",
+   "real": true,
+   "votes": [
+    true,
+    false,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 2,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " helping",
+   "context": "daily tasks autonomously and safely. HAR technology offers an invaluable solution by enabling real-time monitoring and assistance, helping to maintain independence and quality of life for patients. Additionally, this technology provides a valuable data source for doct",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 0,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "superficial -ing",
+   "match": " supporting",
+   "context": "ons on slip in quadruped robots. The findings confirm that quadruped robots can recognize terrain types and detect surface states, supporting safer and more adaptive locomotion. Overall, the proposed system offers a cost-effective, robust, and low-latency solution for re",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 4,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " maintaining",
+   "context": "os. External literature-derived data were utilized strictly as calibration baselines for modeled operational degradation profiles, maintaining methodological transparency. Performance evaluation focuses on analyzing relative behavior, stability, and variability across sen",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 4,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " supporting",
+   "context": "tdoor conditions. Beyond implementation, the framework formalizes a reusable architectural model for adaptive multi-sensor fusion, supporting reproducibility and future comparative research. A dedicated dataset is described, comprising 584 unique real-world evaluation in",
+   "real": false,
+   "votes": [
+    true,
+    false,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 3,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "copula avoidance",
+   "match": "provides an efficient and reliable solution",
+   "context": "ations across three dimensions. Scenario and parameter tests further confirm the framework\u2019s generality and robustness. This work provides an efficient and reliable solution for real-time adaptive signal control at isolated intersections.",
+   "real": true,
+   "votes": [
+    false,
+    true,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 8,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "provides an effective and reliable solution",
+   "context": "ficiency-accuracy trade-off and exhibits strong robustness in complex real-world scenarios. These results indicate that GeoSeqNet provides an effective and reliable solution for point cloud understanding in challenging sensing environments.",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 5,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "superficial -ing",
+   "match": " supporting",
+   "context": "real-world settings across multiple clinical cohorts. Such tools would improve transparency regarding definitions and performance, supporting more meaningful interpretation and comparison across studies. The Mobilise-D consortium previously validated a comprehensive anal",
+   "real": true,
+   "votes": [
+    true,
+    false,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 4,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "provides a flexible framework",
+   "context": " shows how environmental factors, including lighting conditions and spatial scale, affect measurement variability. Overall, EfMAR provides a flexible framework for adaptive outdoor AR-based geospatial measurement, with an emphasis on consistency, transparency, and architectural generaliza",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 8,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "superficial -ing",
+   "match": " maintaining",
+   "context": "nts on ModelNet40, ScanObjectNN, and ShapeNetPart demonstrate its effectiveness. The method achieves competitive performance while maintaining a favorable efficiency\u2013accuracy trade-off and exhibits strong robustness in complex real-world scenarios. These results indicate ",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 9,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " maintaining",
+   "context": "acking system. The results demonstrate improvements in motion stability, execution efficiency, and user interaction quality, while maintaining a high level of control intuitiveness. The findings highlight the potential of Digital Twin-based VR systems as a unifying platfo",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 8,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " maintaining",
+   "context": "nObjectNN, and ShapeNetPart demonstrate the effectiveness of GeoSeqNet. The proposed method achieves competitive performance while maintaining a favorable efficiency-accuracy trade-off and exhibits strong robustness in complex real-world scenarios. These results indicate ",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 9,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "superficial -ing",
+   "match": " supporting",
+   "context": "paper presents a Digital Twin-based virtual reality (VR) interaction and control system for an innovative parallel surgical robot, supporting surgical training and real-time robot interaction. The framework transforms a conventional VR simulator into a bidirectional Digi",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 9,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "superficial -ing",
+   "match": " supporting",
+   "context": "rmance through real-time trajectory refinement and motion guidance. The trained model is deployed with an ONNX-compatible runtime, supporting efficient inference and seamless integration into the control architecture. The system is evaluated experimentally in terms of us",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 9,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "superficial -ing",
+   "match": " supporting",
+   "context": "paper presents a Digital Twin-based virtual reality (VR) interaction and control system for an innovative parallel surgical robot, supporting surgical training and real-time robot interaction. The framework extends a conventional VR simulator into a bidirectional Digital",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 9,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "superficial -ing",
+   "match": " maintaining",
+   "context": "tical tracking system. The results show improvements in motion stability, execution efficiency, and user interaction quality while maintaining a high level of control intuitiveness. These findings indicate that Digital Twin-based VR systems can provide a unified platform ",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 11,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " supporting",
+   "context": "se findings suggest that alpha-band EEG activity reflects age-related differences in auditory-feedback-driven neural adaptability, supporting the idea that alpha-band modulation may serve as a potential biomarker of motor-cognitive adaptability.",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 11,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "superficial -ing",
+   "match": " supporting",
+   "context": "findings suggest that alpha-band EEG activity reflects age-related differences in neural adaptability driven by auditory feedback, supporting the potential use of alpha-band modulation as a biomarker of motor-cognitive adaptability.",
+   "real": false,
+   "votes": [
+    false,
+    true,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 14,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "superficial -ing",
+   "match": " maintaining",
+   "context": "Microsphere lenses produce photonic nanojets with subwavelength beam waists, yet conventional imaging methods have difficulty maintaining consistent image quality for targets located at different axial planes. This study analyzes an optical theory showing that integr",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 19,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "copula avoidance",
+   "match": "provides a multidimensional framework",
+   "context": "-independent over the tested range. Together, these results demonstrate that ring-electrode-enabled AC plasmonic nanopore sensing provides a multidimensional framework for resolving closely related AAV populations and advances plasmonic nanopores toward practical single-particle quality control o",
+   "real": true,
+   "votes": [
+    false,
+    true,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 19,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "copula avoidance",
+   "match": "provides a multidimensional framework",
+   "context": "centration-independent over the tested range. These results demonstrate that ring-electrode-enabled AC plasmonic nanopore sensing provides a multidimensional framework for resolving closely related AAV populations and advances plasmonic nanopores toward practical single-particle quality control o",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 22,
+   "era": "2026",
+   "arm": "A",
+   "pattern": "superficial -ing",
+   "match": " supporting",
+   "context": "dataset demonstrates that the proposed model can generate plausible trajectories across different intersection geometries, further supporting its generalizability across diverse road structures and driving scenarios.",
+   "real": true,
+   "votes": [
+    false,
+    true,
+    true
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 22,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "superficial -ing",
+   "match": " supporting",
+   "context": "c nuPlan dataset demonstrates that the model can generate plausible trajectories across different intersection geometries, further supporting its generalizability across diverse road structures and driving scenarios.",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    false
+   ],
+   "unanimous": false
+  },
+  {
+   "i": 23,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "superficial -ing",
+   "match": " maintaining",
+   "context": "evel physical constraints support motion prediction for invisible targets and link the inferred states to fragmented trajectories, maintaining temporally continuous tracking during prolonged visual occlusions. Experiments on DAIR-V2X and our self-collected roadside datase",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 23,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "superficial -ing",
+   "match": " maintaining",
+   "context": "at the scene level, it predicts the motion of invisible targets and associates these inferred states with fragmented trajectories, maintaining temporal continuity during prolonged visual occlusions. Experiments on DAIR-V2X and our self-collected roadside dataset demonstra",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 22,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "superficial -ing",
+   "match": " supporting",
+   "context": "ation on the public nuPlan dataset shows that the model generates plausible trajectories across different intersection geometries, supporting its generalizability across diverse road structures and driving scenarios.",
+   "real": true,
+   "votes": [
+    true,
+    true,
+    true
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 28,
+   "era": "2026",
+   "arm": "C",
+   "pattern": "superficial -ing",
+   "match": " maintaining",
+   "context": " with Explainable Artificial Intelligence), integrates these techniques to provide comprehensive protection for IoT networks while maintaining transparency, security, and trustworthiness.",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  },
+  {
+   "i": 28,
+   "era": "2026",
+   "arm": "B",
+   "pattern": "superficial -ing",
+   "match": " maintaining",
+   "context": "ncy. The framework combines Random Forest (RF) and SelectKBest for hybrid feature selection, reducing computational overhead while maintaining high detection accuracy. Deep Autoencoders (DAEs) detect anomalous traffic that deviates from learned normal behavior, allowing p",
+   "real": false,
+   "votes": [
+    false,
+    false,
+    false
+   ],
+   "unanimous": true
+  }
+ ],
+ "notes": {
+  "detection_vs_editing_2026-08-08": "These labels answer \"is this a real instance of the pattern\", which is a DETECTION question. The skill needs an EDITING question, \"should this change\". They are not the same: `X remains a challenge` is a real era signal and must not be edited. Precision here is a detection figure and is also an upper bound, since the panel was shown a match rather than a text."
+ }
+}

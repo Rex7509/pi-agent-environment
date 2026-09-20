@@ -1,0 +1,30 @@
+{
+ "_note": "Precision floors from the frozen labels. A regex edit that drops below these, or that stops surfacing a real instance, fails tests. Regenerate deliberately, never to make a red test green.",
+ "floors": {
+  "copula avoidance": {
+   "precision": 0.607,
+   "real_kept": 17,
+   "real_lost": 0,
+   "surfaced": 28
+  },
+  "negative parallelism": {
+   "precision": 0.0,
+   "real_kept": 0,
+   "real_lost": 0,
+   "surfaced": 1
+  },
+  "superficial -ing": {
+   "precision": 0.41,
+   "real_kept": 16,
+   "real_lost": 0,
+   "surfaced": 39
+  },
+  "undue emphasis": {
+   "precision": 0.8,
+   "real_kept": 8,
+   "real_lost": 0,
+   "surfaced": 10
+  }
+ },
+ "_refrozen_2026-08-08": "Refrozen twice today. A praise-adjective reframe of `copula avoidance` scored 8.1x excess on the corpus it was tuned on and 0.9x on held-out arXiv cs.LG, and its rewrites lost something worth keeping in 42% of judgements against 16% for the verb list. Reverted. The floors below are the verb list, which held 2.1x held out."
+}
